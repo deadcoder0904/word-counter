@@ -18,6 +18,10 @@
 - Tailwind CSS (via `@tailwindcss/vite`) for styling.
 - `pretty-ms` for compact time formatting.
 
+**Demo**
+
+- Live demo: [https://word-counter-x.vercel.app/](https://word-counter-x.vercel.app/)
+
 **Quick Start**
 
 ```bash
