@@ -14,6 +14,10 @@ export function getTextStats(text: string): TextStats {
   const speakMs = (words / 150) * 60 * 1000;
 
   const formatTime = (ms: number, label: string) => {
+    if (words === 0) {
+      return "-";
+    }
+
     if (ms < 60_000) {
       return `<1 min ${label}`;
     }

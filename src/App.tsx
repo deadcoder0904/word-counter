@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTextStats } from "./hooks/useTextStats";
 
 function App() {
-  const [text, setText] = useState<string>("Hello World");
+  const [text, setText] = useState<string>("");
   const stats = useTextStats(text);
 
   return (
